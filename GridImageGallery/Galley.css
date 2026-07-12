@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    background:linear-gradient(to right top, rgb(198, 16, 47),pink);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: grid;
+    grid-template-columns:repeat(4,400px);
+    grid-template-rows:200px 200px 200px 200px;
+    gap:20px;
+    justify-content: center;
+    align-content: center;
+}
+main>h1{
+    text-transform:capitalize;
+    font-size: 80px;
+    margin: 30px;
+}
+section>article{
+    /* border:2px solid black; */
+    font-size: 45px;
+    color:white;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-shadow: 0px 5px 8px gray;
+    letter-spacing: 1.3px;
+    border-radius: 20px;
+}
+section>#a1{
+    background-image:url("https://www.bing.com/th/id/OIP.35SoWc1z0Sy0eqJQ0WP0YwHaEK?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+     background-size: cover;
+}
+section>#a2{
+    background-image: url("https://www.bing.com/th/id/OIP.S4vR27bfEmVYn62XOT3UtAHaEo?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    background-size: cover;
+}
+section>#a3{
+    grid-row: span 2;
+    grid-column: span 2;
+    background-image: url("https://www.bing.com/th/id/OIP.BEfr1S7k1lDmnTs8Mwd-YQHaEJ?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>#a4{
+    background-image: url("https://www.bing.com/th/id/OIP.YPzuKyh32Fcr_tQF5Vk6hwAAAA?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    grid-row: span 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>#a5{
+    grid-row:span 2;
+    background-image:url("https://www.bing.com/th/id/OIP.DJ1jGCq3j2YcIYok3he4-gHaE7?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>#a6{
+    background-image: url("https://www.bing.com/th/id/OIP.l3ip7IbcJK5lvQSDm_HdVAHaEo?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>#a7{
+    background-image: url("https://www.bing.com/th/id/OIP.5_xfoS9tPlyKJbeP7PSVjAHaEo?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>#a8{
+    background-image: url("https://www.bing.com/th/id/OIP.4BwLFeIMw_--saQtcb3uOAHaEJ?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=ImgAns&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 4;
+}
+section>article:hover{
+    background-position: center;
+}
