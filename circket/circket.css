@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    height:100vh;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main>#dhoni{
+    border-radius: 20px;
+    box-shadow: 3px 5px 7px black;
+    width:300px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    background: linear-gradient(to right top,yellow, white);
+}
+main>#virat{
+    border-radius: 20px;
+    box-shadow: 3px 5px 7px black;
+    width:300px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    background: linear-gradient(to right top,red, black);
+}
+main>#sharma{
+    border-radius: 20px;
+    box-shadow: 3px 5px 7px black;
+    width:300px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    background: linear-gradient(to right top, blue, white);
+}
+main>#dhoni>img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    /* box-shadow: 0px 3px 5px black; */
+}
+main>#virat>img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    /* box-shadow: 0px 3px 5px black; */
+}
+main>#sharma>img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    /* box-shadow: 0px 3px 5px black; */
+}
+main>#dhoni>h1{
+    text-transform: uppercase;
+}
+main>#virat>h1{
+    text-transform: uppercase;
+    color:white
+}
+main>#sharma>h1{
+    text-transform: uppercase;
+    color: white;
+}
+main>#dhoni>p{
+    text-align: justify;
+    word-spacing: 1px;
+}
+main>#virat>p{
+    text-align: justify;
+    word-spacing: 1px;
+    color: white;
+}
+main>#sharma>p{
+    text-align: justify;
+    word-spacing: 1px;
+    color: white;
+}
