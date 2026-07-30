@@ -51,5 +51,3 @@ Product-Card/
 ## 👩‍💻 Author
 
 **Pavatharani S**
-
-![Product Card](headphones.png)
