@@ -29,10 +29,10 @@ Product-Card/
 
 ## 📷 Project Preview
 
-`headphone.png`
+`headphones.png`
 
 ```md
-![Product Card](headphone.png)
+![Product Card](headphones.png)
 ```
 ## 🎯 Learning Outcomes
 
@@ -55,4 +55,4 @@ Product-Card/
 
 **Pavatharani S**
 
-![Product Card](headphone.png)
+![Product Card](headphones.png)
