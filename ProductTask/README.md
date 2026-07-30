@@ -55,5 +55,3 @@ Product-Cards/
 ## 👩‍💻 Author
 
 **Pavatharani S**
-
-![Product Cards](product.png)
