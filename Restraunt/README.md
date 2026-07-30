@@ -24,15 +24,6 @@ Restaurant-Menu/
 │── restraunt.css
 │── images
 │── README.md
-```
-
-## 📷 Project Preview
-
-> Add your screenshot here after uploading it to your project.
-
-```md
-![Restaurant Menu](image.png)
-```
 
 ## 🎯 Learning Outcomes
 
@@ -59,4 +50,3 @@ This project is created for learning and practice purposes.
 
 
 
-![Restraunt Project](image.png)
