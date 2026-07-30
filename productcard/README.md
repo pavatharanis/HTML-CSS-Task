@@ -29,11 +29,8 @@ Product-Card/
 
 ## 📷 Project Preview
 
-`headphones.png`
-
-```md
 ![Product Card](headphones.png)
-```
+
 ## 🎯 Learning Outcomes
 
 - HTML page structure
