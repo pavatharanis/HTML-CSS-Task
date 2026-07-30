@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#product>h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin:20px auto ;
+}
+#product>.card{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px lightgray;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-left:  50px;
+    padding: 20px;
+    text-align: center;
+}
+#product>.card>img{
+    height: 100px;
+    width: 100px;
+}
+#product>.card>h3{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#product>.card>p{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#product>.card>button{
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
