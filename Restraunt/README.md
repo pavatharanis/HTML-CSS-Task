@@ -28,11 +28,7 @@ Restaurant-Menu/
 
 ## 📷 Project Preview
 
-> Add your screenshot here after uploading it to your project.
-
-```md
 ![Restaurant Menu](image.png)
-```
 
 ## 🎯 Learning Outcomes
 
