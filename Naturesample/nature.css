@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+    padding:0 50px;
+}
+body{
+    background: linear-gradient(to right top,green,black);
+}
+nav>h2{
+    text-transform: capitalize;
+    font-size: 45px;
+    color: white;
+}
+/* main tag style */
+main{
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    color:white ;
+}
+main>h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    color:white;
+    text-shadow: 2px 2px 3px black;
+}
+main>p{
+    font-size: 18px;
+    width:800px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+main>button{
+    padding:15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color:white;
+    color: black;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+/* section style */
+section{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section>article{
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px;
+    padding:10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right top,white, skyblue);
+}
+section>article>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
