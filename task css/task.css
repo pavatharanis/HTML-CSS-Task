@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+    color: white;
+    display:block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+div{
+    background-color: red;
+    margin: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    word-spacing: 1.5px;
+    text-align: center;
+}
+section>div:hover{
+    background-color: aqua;
+    color: black;
+}
