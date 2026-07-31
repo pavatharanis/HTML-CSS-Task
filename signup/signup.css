@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.outer{
+    height:100vh;
+    background-color: lightcyan;
+    display: flex;
+}
+.outer>.left{
+    flex-basis: 45%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer>.right{
+    flex-basis:55%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.outer>.right>h3{
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.outer>.right>form{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.outer>.right>form>label{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin:10px;
+    font-size: 16px;
+}
+.outer>.right>form>input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:10px;
+    margin:0px 15px;
+}
+.outer>.right>form>button{
+    padding: 10px;
+    margin:10px 15px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+.middle{
+    width:350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.middle>p{
+    color: white;
+    text-transform: capitalize;
+}
+.middle>a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+}
